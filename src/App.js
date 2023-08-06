@@ -7,6 +7,7 @@ const App = () => {
       <div>456</div>
       <div>789</div>
       <Alert>45</Alert>
+      <div>777</div>
     </div>
   );
 };
