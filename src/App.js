@@ -8,6 +8,7 @@ const App = () => {
       <div>789</div>
       <Alert>45</Alert>
       <div>777</div>
+      <div>test twice</div>
     </div>
   );
 };
