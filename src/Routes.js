@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Outlet, Route, Routes, useRoutes } from "react-router-dom";
+import { Outlet, useRoutes } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./pages/Home/Layout/Layout";
 import NotFound from "./pages/Home/NotFound/NotFound";
