@@ -1,7 +1,8 @@
 import * as React from "react";
 import { Outlet, useRoutes } from "react-router-dom";
+import Layout from "./Layout";
 import Home from "./pages/Home";
-import Layout from "./pages/Home/Layout/Layout";
+
 import NotFound from "./pages/Home/NotFound/NotFound";
 const Courses = () => {
   return (
@@ -17,7 +18,7 @@ const CoursesIndex = () => {
 const Course = () => {
   return <div>Course</div>;
 };
-const RoutesRender = () => {
+const Routes = () => {
   const routes = useRoutes([
     {
       path: "/",
@@ -32,4 +33,4 @@ const RoutesRender = () => {
   ]);
   return <>{routes}</>;
 };
-export default RoutesRender;
+export default Routes;

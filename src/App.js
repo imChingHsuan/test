@@ -1,9 +1,9 @@
-import RoutesRender from "./Routes";
+import Routes from "./Routes";
 
 const App = () => {
   return (
     <>
-      <RoutesRender />
+      <Routes />
     </>
   );
 };
