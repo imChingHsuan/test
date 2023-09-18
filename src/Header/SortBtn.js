@@ -13,7 +13,7 @@ const SortBtn = ({ title, sort }) => {
   return (
     <Box className="md:block hidden">
       <div
-        className="flex items-center space-x-0.5"
+        className="flex items-center space-x-1 cursor-pointer"
         onClick={handlePopoverOpen}
       >
         <div className="select-none">{title}</div>

@@ -2,8 +2,8 @@ import { Box, Button, Drawer, IconButton, List, Toolbar } from "@mui/material";
 import SortBtn from "./SortBtn";
 import leftNavData from "./leftNavData";
 import MenuIcon from "@mui/icons-material/Menu";
-import { useState } from "react";
 import DrawerChild from "./DrawerChild";
+import { useState } from "react";
 const Header = () => {
   const [anchor, setAnchor] = useState(false);
   const toggleDrawer = () => {
@@ -41,7 +41,11 @@ const Header = () => {
         open={anchor}
         onClose={toggleDrawer}
         variant="temporary"
-        sx={{ width: 250, "& .MuiDrawer-paper": { width: 250, top: 75 } }}
+        sx={{
+          width: 250,
+          "& .MuiDrawer-paper": { width: 250, top: 75 },
+          "@media (min-width: 768px)": { display: "none" },
+        }}
         hideBackdrop
         elevation={0}
       >
