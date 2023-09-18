@@ -1,20 +1,9 @@
 import * as React from "react";
-import { Outlet, useRoutes } from "react-router-dom";
+import { useRoutes } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./pages/Home";
 
 import NotFound from "./pages/Home/NotFound/NotFound";
-const Courses = () => {
-  return (
-    <>
-      <div>Courses</div>
-      <Outlet />
-    </>
-  );
-};
-const CoursesIndex = () => {
-  return <div>CoursesIndex</div>;
-};
 const Course = () => {
   return <div>Course</div>;
 };
