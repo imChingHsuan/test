@@ -1,11 +1,8 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import SlickComponent from "./SlickComponent";
-
+import ProductIntro from "./ProductIntro";
 const Home = () => {
   return (
-    <div className="flex flex-col">
-      <SlickComponent />
+    <div className="flex flex-col px-10">
+      <ProductIntro />
     </div>
   );
 };
